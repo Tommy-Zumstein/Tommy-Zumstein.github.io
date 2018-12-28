@@ -1,0 +1,180 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 1%;
+}
+
+/*For Desktop*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .navbar li {
+        float: none;
+        display: block;
+    }
+}
+
+p {
+    line-height: 1em;
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 1.7em;
+}
+
+a {
+    color: navajowhite;
+    text-decoration: none;
+}
+
+    a:hover,
+    a:active {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
+.navbar {
+    width: 100%;
+    background-color: #1B2625;
+    overflow: hidden;
+    text-align: center;
+}
+    
+    .navbar li{
+        display: inline;
+    }
+
+    .navbar a {
+        display: inline-block;
+        padding: 1%;
+        font-size: 175%;
+
+    }
+
+        .navbar a:hover {
+            background-color: #000;
+            text-decoration: none;
+        }
+
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Helvetica;
+}
+
+#page {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#content {
+    display: inline-block;
+    border-radius: 25px;
+    margin: 0;
+    background: black;
+    width: 100%;
+    height: auto;
+    clear: both;
+    padding: 5%;
+}
+
+    #content h1, p {
+        opacity: 1;
+    }
+
+    #content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #content iframe{
+        max-width: 100%;
+
+    }
+
+#footer {
+    border-bottom: 3px #fff solid;
+    margin-bottom: 2%;
+}
+
+    #footer p {
+        text-align: center;
+        font-size: 60%;
+        color: white;
+    }
