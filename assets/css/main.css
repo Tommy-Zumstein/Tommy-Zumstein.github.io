@@ -3661,6 +3661,7 @@
 						#two .inner article:last-child {
 							padding-left: 0;
 							padding-top: 2em;
+                            padding-bottom: 2em;
 						}
 
 		}
@@ -3742,12 +3743,12 @@
 
 /* Footer */
 
-	#footer {
-		background-color: #e5474b;
-		color: #f2a3a5;
-		padding: 4em 0 2em 0;
-		background: #e5474b;
-	}
+#footer {
+    background-color: #e5474b;
+    color: #f2a3a5;
+    padding: 4em 0 2em 0;
+    background: #595959;
+}
 
 		#footer input, #footer select, #footer textarea {
 			color: #ffffff;
