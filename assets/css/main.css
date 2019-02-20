@@ -3700,13 +3700,7 @@
 
 #three {
     padding: 6em 0 4em 0;
-
 }
-    #three .Spell {
-        background-image: url("../../images/spellBG.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 
 		#three .inner {
 			display: -ms-flexbox;
