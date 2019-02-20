@@ -2339,7 +2339,7 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 50%;
 		}
 
 			.image.left img, .image.right img {
@@ -2394,9 +2394,6 @@
         width: 100%;
         height: 100%;
     }
-
-/* Slide show/Carousel */
-
 
 /* List */
 
@@ -3601,6 +3598,12 @@
 		padding: 4em 0 2em 0;
 	}
 
+    #SpellGallery {
+    background-image: url("../../images/spellBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
 	#one {
 		padding: 6em 0 4em 0;
 	}
@@ -3684,6 +3687,7 @@
                             padding-bottom: 2em;
 						}
 
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3694,9 +3698,15 @@
 
 		}
 
-	#three {
-		padding: 6em 0 4em 0;
-	}
+#three {
+    padding: 6em 0 4em 0;
+
+}
+    #three .Spell {
+        background-image: url("../../images/spellBG.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
 		#three .inner {
 			display: -ms-flexbox;
@@ -3977,3 +3987,5 @@
 			}
 
 		}
+
+
